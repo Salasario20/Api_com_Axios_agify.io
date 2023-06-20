@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de api</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" 
@@ -14,23 +17,24 @@
 
 <body>
      <div id="api-header">
-        <h2> Escreva seu primeiro nome</h2>
+        <h2> Escreva seu primeiro nome <br>E falaremos sua suposta idade </h2>
     <form action="" id="form-api-form">
-     <input type="text" id="api-input" minlength="3" required maxlength="25" placeholder="Insira aqui" oninput="this.value = this.value.replace(/[^a-zA-ZçÇ]/g, '')"
+     <input type="text" id="api-input" minlength="3" required maxlength="25" placeholder="  Insira seu nome aqui" oninput="this.value = this.value.replace(/[^a-zA-ZçÇ]/g, '')"
      >
      <button id="api-btn" type="submit">
-        Validar
+        Verificar
      </button>
-      <h4>Apenas o primeiro nome sem acentos são permitidos</h4>
+      <h4 class="h41">Atenção </h4>
+    <h4 class="h42"> Apenas o primeiro nome sem acentos são permitidos</h4>
     </form>
      </div>
        <div id="api-resultado">
          <h3> </h3>
          <ul id="ul-api">
             
-          <li class="li-name"> </li>
+          <li class="li-name"></li>
           
-          <li class="li-age"> </li>
+          <li class="li-age"></li>
 
 
 
